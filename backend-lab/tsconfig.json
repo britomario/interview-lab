@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    /* Configuração de Base */
+    "target": "es2020",                  /* Versão do Javascript gerado (moderno mas compatível) */
+    "module": "commonjs",                /* Padrão do Node.js tradicional */
+    "rootDir": "./src",                  /* Onde está o teu código */
+    "outDir": "./dist",                  /* Para onde vai o código compilado */
+    "strict": true,                      /* Ativa o modo rigoroso (Engenharia Segura!) */
+    "esModuleInterop": true,             /* Permite importar módulos CommonJS como ESModules */
+    "forceConsistentCasingInFileNames": true,
+    
+    /* O Segredo para resolver o teu erro: */
+    "moduleResolution": "node",          /* Ensina o TS a procurar módulos na pasta node_modules */
+    "types": ["node"]                    /* Força a inclusão dos tipos do Node (http, fs, path...) */
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
